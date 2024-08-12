@@ -14,7 +14,9 @@ const SocialLinks = () => {
         <>
             <IconLinkButton icon={faMugHot} href="/ko-fi">
                 <p className="font">Ko-Fi</p>
-                <p className="text-xs font-light">Buy me a coffee</p>
+                <p className="text-xs font-light">
+                    Tip & view creative financial goals
+                </p>
             </IconLinkButton>
             <IconLinkButton
                 className="mt-4"
