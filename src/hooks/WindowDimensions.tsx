@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import { useEffect, useState } from 'react'
 
 interface IDimensions {
     width: number | undefined
@@ -6,11 +6,17 @@ interface IDimensions {
 }
 
 const useWindowDimensions = () => {
-    const [windowDimensions, setWindowDimensions] = useState<IDimensions>({ width: undefined, height: undefined})
+    const [windowDimensions, setWindowDimensions] = useState<IDimensions>({
+        width: undefined,
+        height: undefined,
+    })
 
     useEffect(() => {
         const onResize = () => {
-            setWindowDimensions({ width: window.innerWidth, height: window.innerHeight })
+            setWindowDimensions({
+                width: window.innerWidth,
+                height: window.innerHeight,
+            })
         }
 
         window.addEventListener('resize', onResize)

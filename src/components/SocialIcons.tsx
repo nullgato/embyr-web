@@ -1,12 +1,12 @@
 import {
-    faSoundcloud,
     faBandcamp,
-    faTwitch,
-    faYoutube,
-    faTiktok,
-    faThreads,
     faInstagram,
+    faSoundcloud,
+    faThreads,
+    faTiktok,
+    faTwitch,
     faTwitter,
+    faYoutube,
 } from '@fortawesome/free-brands-svg-icons'
 import IconLink from './IconLink'
 

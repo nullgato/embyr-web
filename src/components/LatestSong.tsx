@@ -1,5 +1,4 @@
-import useWindowDimensions from "@/hooks/WindowDimensions"
-import { useEffect, useState } from "react"
+import useWindowDimensions from '@/hooks/WindowDimensions'
 
 interface IAPIParams {
     color: string
@@ -26,7 +25,10 @@ const LatestSong = () => {
         show_user: true,
         show_reposts: true,
         show_teaser: true,
-        visual: (windowDimensions.width === undefined || windowDimensions.width < 640) ? true : false
+        visual:
+            windowDimensions.width === undefined || windowDimensions.width < 640
+                ? true
+                : false,
     }
 
     let query = ''

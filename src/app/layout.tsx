@@ -2,10 +2,10 @@ import '@/app/globals.css'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 import 'react-toastify/dist/ReactToastify.min.css'
 
+import { joinCss } from '@/utilities/css-utilities'
 import type { Metadata } from 'next'
 import { DM_Sans } from 'next/font/google'
 import { ReactNode } from 'react'
-import { joinCss } from '@/utilities/css-utilities'
 
 const inter = DM_Sans({ subsets: ['latin'] })
 

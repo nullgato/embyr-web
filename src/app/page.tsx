@@ -1,25 +1,15 @@
 'use client'
 
-import Image from 'next/image'
-import banner from '@/images/banner.png'
-import avatar from '@/images/avatar.png'
-import { ToastContainer } from 'react-toastify'
-import IconLink from '@/components/IconLink'
-import {
-    faBandcamp,
-    faInstagram,
-    faSoundcloud,
-    faThreads,
-    faTiktok,
-    faTwitch,
-    faTwitter,
-    faYoutube,
-} from '@fortawesome/free-brands-svg-icons'
-import SocialIcons from '@/components/SocialIcons'
-import LatestSong from '@/components/LatestSong'
 import IconLinkButton from '@/components/IconLinkButton'
-import { faCoffee, faMugHot } from '@fortawesome/free-solid-svg-icons'
+import LatestSong from '@/components/LatestSong'
+import SocialIcons from '@/components/SocialIcons'
+import SocialLinks from '@/components/SocialLinks'
+import avatar from '@/images/avatar.png'
+import banner from '@/images/banner.png'
+import { faBandcamp } from '@fortawesome/free-brands-svg-icons'
+import Image from 'next/image'
 import Link from 'next/link'
+import { ToastContainer } from 'react-toastify'
 
 const Home = () => {
     return (
@@ -55,7 +45,7 @@ const Home = () => {
                     <div className="bio mt-3 text-center">
                         <p className="p-1 text-xl font-semibold">embyr.</p>
                         <p className="text-sm font-light tracking-wider">
-                            [She/Her] Whiny Musician & Streamer
+                            [She/Her] Whiny Musician & Streamer 🏳️‍⚧️
                         </p>
                         <div className="flex flex-row"></div>
                     </div>
@@ -80,72 +70,7 @@ const Home = () => {
                     </div>
 
                     <div className="content mt-14 w-full max-w-lg px-5 sm:px-0">
-                        <IconLinkButton icon={faMugHot} href="/ko-fi">
-                            <p className="font">Ko-Fi</p>
-                            <p className="text-xs font-light">
-                                Buy me a coffee
-                            </p>
-                        </IconLinkButton>
-                        <IconLinkButton
-                            className="mt-4"
-                            icon={faSoundcloud}
-                            href="/soundcloud"
-                        >
-                            <p className="font">SoundCloud</p>
-                            <p className="text-xs font-light">
-                                Free streaming of my music
-                            </p>
-                        </IconLinkButton>
-                        <IconLinkButton
-                            className="mt-4"
-                            icon={faTwitch}
-                            href="/twitch"
-                        >
-                            <p className="font">Twitch</p>
-                            <p className="text-xs font-light">
-                                9pm (CST) streaming almost everyday!
-                            </p>
-                        </IconLinkButton>
-                        <IconLinkButton
-                            className="mt-4"
-                            icon={faYoutube}
-                            href="/youtube"
-                        >
-                            <p className="font">YouTube</p>
-                            <p className="text-xs font-light">
-                                I also stream here at the same time!
-                            </p>
-                        </IconLinkButton>
-                        <IconLinkButton
-                            className="mt-4"
-                            icon={faTiktok}
-                            href="/tiktok"
-                        >
-                            <p className="font">The TikTok</p>
-                            <p className="text-xs font-light">
-                                I also stream here at the same time!
-                            </p>
-                        </IconLinkButton>
-                        <IconLinkButton
-                            className="mt-4"
-                            icon={faThreads}
-                            href="/threads"
-                        >
-                            <p className="font">Threads</p>
-                            <p className="text-xs font-light">
-                                My most active social media
-                            </p>
-                        </IconLinkButton>
-                        <IconLinkButton
-                            className="mt-4"
-                            icon={faInstagram}
-                            href="/instagram"
-                        >
-                            <p className="font">Instagram</p>
-                            <p className="text-xs font-light">
-                                Most of my pictures go here
-                            </p>
-                        </IconLinkButton>
+                        <SocialLinks />
                     </div>
 
                     <div className="footer mt-14 w-full max-w-lg text-center text-sm font-light">

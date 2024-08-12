@@ -16,7 +16,10 @@ body {
 }
 
 main > div {
-    background-image: linear-gradient(var(--bg-gradient-start), var(--bg-gradient-end));
+    background-image: linear-gradient(
+        var(--bg-gradient-start),
+        var(--bg-gradient-end)
+    );
 }
 
 .fadeIn {
