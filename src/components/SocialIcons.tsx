@@ -1,11 +1,11 @@
 import {
     faBandcamp,
+    faGithub,
     faInstagram,
     faSoundcloud,
     faThreads,
     faTiktok,
     faTwitch,
-    faTwitter,
     faYoutube,
 } from '@fortawesome/free-brands-svg-icons'
 import IconLink from './IconLink'
@@ -20,7 +20,7 @@ const SocialIcons = () => {
             <IconLink icon={faTiktok} href="/tiktok" />
             <IconLink icon={faThreads} href="/threads" />
             <IconLink icon={faInstagram} href="/instagram" />
-            <IconLink icon={faTwitter} href="/twitter" />
+            <IconLink icon={faGithub} href="/github" />
         </div>
     )
 }
