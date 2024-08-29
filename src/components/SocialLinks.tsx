@@ -8,7 +8,7 @@ import {
     faYoutube,
 } from '@fortawesome/free-brands-svg-icons'
 import { faMugHot } from '@fortawesome/free-solid-svg-icons'
-import IconLinkButton from './IconLinkButton'
+import IconLinkButton from '../common/IconLinkButton'
 
 const SocialLinks = () => {
     return (

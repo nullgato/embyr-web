@@ -1,6 +1,6 @@
 'use client'
 
-import IconLinkButton from '@/components/IconLinkButton'
+import IconLinkButton from '@/common/IconLinkButton'
 import LatestSong from '@/components/LatestSong'
 import SocialIcons from '@/components/SocialIcons'
 import SocialLinks from '@/components/SocialLinks'

@@ -8,7 +8,7 @@ import {
     faTwitch,
     faYoutube,
 } from '@fortawesome/free-brands-svg-icons'
-import IconLink from './IconLink'
+import IconLink from '../common/IconLink'
 
 const SocialIcons = () => {
     return (
