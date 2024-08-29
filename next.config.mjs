@@ -13,6 +13,12 @@ const nextConfig = {
                 permanent: false,
             },
             {
+                source: '/facebook',
+                destination:
+                    'https://www.facebook.com/profile.php?id=61563811955653',
+                permanent: false,
+            },
+            {
                 source: '/instagram',
                 destination: 'https://instagram.com/embyrdot',
                 permanent: false,
@@ -50,6 +56,11 @@ const nextConfig = {
             {
                 source: '/youtube',
                 destination: 'https://youtube.com/@embyrdot',
+                permanent: false,
+            },
+            {
+                source: '/discord',
+                destination: 'https://discord.gg/xhFZS5HuTY',
                 permanent: false,
             },
         ]

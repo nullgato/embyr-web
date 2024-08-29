@@ -1,4 +1,5 @@
 import {
+    faDiscord,
     faGithub,
     faInstagram,
     faSoundcloud,
@@ -63,6 +64,12 @@ const SocialLinks = () => {
                 <p className="font">GitHub</p>
                 <p className="text-xs font-light">
                     Source code for my projects
+                </p>
+            </IconLinkButton>
+            <IconLinkButton className="mt-4" icon={faDiscord} href="/discord">
+                <p className="font">Discord</p>
+                <p className="text-xs font-light">
+                    Lab du Bratcats - Community!
                 </p>
             </IconLinkButton>
         </>

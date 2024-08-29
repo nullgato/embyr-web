@@ -1,5 +1,6 @@
 import {
     faBandcamp,
+    faDiscord,
     faGithub,
     faInstagram,
     faSoundcloud,
@@ -21,6 +22,7 @@ const SocialIcons = () => {
             <IconLink icon={faThreads} href="/threads" />
             <IconLink icon={faInstagram} href="/instagram" />
             <IconLink icon={faGithub} href="/github" />
+            <IconLink icon={faDiscord} href="/discord" />
         </div>
     )
 }
