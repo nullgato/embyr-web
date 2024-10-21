@@ -43,9 +43,9 @@ const Home = () => {
                     </div>
 
                     <div className="bio mt-3 text-center">
-                        <p className="p-1 text-xl font-semibold">embyr.</p>
-                        <p className="text-sm font-light tracking-wider">
-                            [She/Her] Whiny Musician & Streamer 🏳️‍⚧️
+                        <p className="p-1 text-xl font-semibold">nullmoggi</p>
+                        <p className="text-sm font-light tracking-wider max-w-sm">
+                            i make music for the girlies with soft souls and the boys who screw everything up just like me 😌
                         </p>
                         <div className="flex flex-row"></div>
                     </div>
@@ -82,7 +82,7 @@ const Home = () => {
                                 href="/github"
                                 target="_blank"
                             >
-                                nullgato
+                                nullmoggi
                             </Link>
                         </p>
                     </div>

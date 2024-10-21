@@ -11,10 +11,10 @@ const inter = DM_Sans({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
     metadataBase: new URL('https://bratcats.gay'),
-    title: 'embyr. homepage',
-    description: 'embyr. music, socials, merch, and more!',
+    title: 'nullmoggi homepage',
+    description: 'nullmoggi music, socials, merch, and more!',
     keywords: [
-        'embyr.',
+        'nullmoggi',
         'nullgato',
         'VTuber',
         'Vtuber',
@@ -23,15 +23,15 @@ export const metadata: Metadata = {
         'musician',
         'composer',
     ],
-    authors: [{ name: 'embyr.', url: 'https://threads.net/@embyrdot' }],
-    creator: 'embyr.',
-    publisher: 'embyr.',
+    authors: [{ name: 'nullmoggi', url: 'https://threads.net/@nullmoggi' }],
+    creator: 'nullmoggi',
+    publisher: 'nullmoggi',
     generator: 'Next.js',
     openGraph: {
-        title: 'embyr. homepage',
-        description: `embyr. and embyr. accessories gosh dang it`,
+        title: 'nullmoggi homepage',
+        description: `nullmoggi and nullmoggi accessories gosh dang it`,
         url: 'https://bratcats.gay',
-        siteName: 'embyr. homepage',
+        siteName: 'nullmoggi homepage',
         images: [
             {
                 url: '/og.png',
@@ -44,8 +44,8 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: 'summary_large_image',
-        site: '@embyrdot',
-        creator: '@embyrdot',
+        site: '@nullmoggi',
+        creator: '@nullmoggi',
     },
 }
 
