@@ -4,6 +4,7 @@ import IconLinkButton from '@/common/IconLinkButton'
 import LatestSong from '@/components/LatestSong'
 import SocialIcons from '@/components/SocialIcons'
 import SocialLinks from '@/components/SocialLinks'
+import avatarIrl from '@/images/avatar-irl.jpg'
 import avatar from '@/images/avatar.png'
 import banner from '@/images/banner.png'
 import { faBandcamp } from '@fortawesome/free-brands-svg-icons'
@@ -32,11 +33,22 @@ const Home = () => {
 
                     <div className="avatar relative -mt-20 h-36 w-36">
                         <Image
-                            quality={100}
+                            quality={90}
                             sizes="9rem"
                             className="rounded-lg border-2 border-solid border-slate-100"
                             src={avatar}
-                            alt="Banner picture of a screenshot from a session in Logic Pro X"
+                            alt="Avatar picture of the nullmoggi fursona"
+                            placeholder="blur"
+                            fill
+                        />
+                        
+                        <Image
+                            id="avatar-irl"
+                            quality={90}
+                            sizes="9rem"
+                            className="fadeInOut rounded-lg border-2 border-solid border-slate-100"
+                            src={avatarIrl}
+                            alt="Avatar picture of the actual nullmoggi"
                             placeholder="blur"
                             fill
                         />
@@ -62,9 +74,6 @@ const Home = () => {
                             <p className="font">Bandcamp</p>
                             <p className="text-xs font-light">
                                 Pay what you want - $0+
-                            </p>
-                            <p className="text-xs font-light">
-                                All funds go towards distribution
                             </p>
                         </IconLinkButton>
                     </div>

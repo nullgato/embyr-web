@@ -86,3 +86,18 @@ main > div {
         display: none;
     }
 }
+
+#avatar-irl.fadeInOut {
+    opacity: 0;
+    animation-duration: 10s;
+    animation-name: avatarFadeInOut;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(.2, 1.01, .2, 1.01);
+    animation-delay: 3s;
+}
+
+@keyframes avatarFadeInOut {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}

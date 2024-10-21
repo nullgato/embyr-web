@@ -15,7 +15,7 @@ const SocialLinks = () => {
     return (
         <>
             <IconLinkButton icon={faMugHot} href="/ko-fi">
-                <p className="font">Ko-Fi</p>
+                <p className="font">Ko-fi</p>
                 <p className="text-xs font-light">
                     Tip & view creative financial goals
                 </p>
@@ -69,7 +69,7 @@ const SocialLinks = () => {
             <IconLinkButton className="mt-4" icon={faDiscord} href="/discord">
                 <p className="font">Discord</p>
                 <p className="text-xs font-light">
-                    Lab du Bratcats - Community!
+                    Bratcats Lounge - Community!
                 </p>
             </IconLinkButton>
         </>
