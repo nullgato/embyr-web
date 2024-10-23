@@ -14,6 +14,8 @@ import IconLinkButton from '../common/IconLinkButton'
 const SocialLinks = () => {
     return (
         <>
+            <h2 className="text-center text-2xl mb-5">⎯ Social Media ⎯</h2>
+
             <IconLinkButton icon={faMugHot} href="/ko-fi">
                 <p className="font">Ko-fi</p>
                 <p className="text-xs font-light">
