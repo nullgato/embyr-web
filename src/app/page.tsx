@@ -4,7 +4,7 @@ import IconLinkButton from '@/common/IconLinkButton'
 import LatestSong from '@/components/LatestSong'
 import SocialIcons from '@/components/SocialIcons'
 import SocialLinks from '@/components/SocialLinks'
-import avatarIrl from '@/images/avatar-irl.jpg'
+import avatarIrl from '@/images/avatar-irl.png'
 import avatar from '@/images/avatar.png'
 import banner from '@/images/banner.png'
 import { faBandcamp } from '@fortawesome/free-brands-svg-icons'
@@ -37,7 +37,7 @@ const Home = () => {
                             sizes="9rem"
                             className="rounded-lg border-2 border-solid border-slate-100"
                             src={avatar}
-                            alt="Avatar picture of the nullmoggi fursona"
+                            alt="Avatar picture of the nullgato fursona"
                             placeholder="blur"
                             fill
                         />
@@ -48,14 +48,14 @@ const Home = () => {
                             sizes="9rem"
                             className="fadeInOut rounded-lg border-2 border-solid border-slate-100"
                             src={avatarIrl}
-                            alt="Avatar picture of the actual nullmoggi"
+                            alt="Avatar picture of the actual nullgato"
                             placeholder="blur"
                             fill
                         />
                     </div>
 
                     <div className="bio mt-3 text-center">
-                        <p className="p-1 text-xl font-semibold">nullmoggi</p>
+                        <p className="p-1 text-xl font-semibold">nullgato</p>
                         <p className="text-sm font-light tracking-wider max-w-sm">
                             i make music for the girlies with soft souls and the boys who screw everything up just like me 😌
                         </p>
@@ -91,7 +91,7 @@ const Home = () => {
                                 href="/github"
                                 target="_blank"
                             >
-                                nullmoggi
+                                nullgato
                             </Link>
                         </p>
                     </div>

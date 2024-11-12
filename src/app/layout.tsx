@@ -11,8 +11,8 @@ const inter = DM_Sans({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
     metadataBase: new URL('https://bratcats.gay'),
-    title: 'nullmoggi homepage',
-    description: 'nullmoggi music, socials, merch, and more!',
+    title: 'nullgato homepage',
+    description: 'nullgato music, socials, merch, and more!',
     keywords: [
         'nullmoggi',
         'nullgato',
@@ -23,15 +23,15 @@ export const metadata: Metadata = {
         'musician',
         'composer',
     ],
-    authors: [{ name: 'nullmoggi', url: 'https://threads.net/@nullmoggi' }],
-    creator: 'nullmoggi',
-    publisher: 'nullmoggi',
+    authors: [{ name: 'nullgato', url: 'https://threads.net/@nullgato' }],
+    creator: 'nullgato',
+    publisher: 'nullgato',
     generator: 'Next.js',
     openGraph: {
-        title: 'nullmoggi homepage',
-        description: `nullmoggi and nullmoggi accessories gosh dang it`,
+        title: 'nullgato homepage',
+        description: `nullgato and nullgato accessories gosh dang it`,
         url: 'https://bratcats.gay',
-        siteName: 'nullmoggi homepage',
+        siteName: 'nullgato homepage',
         images: [
             {
                 url: '/og.png',
@@ -44,8 +44,8 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: 'summary_large_image',
-        site: '@nullmoggi',
-        creator: '@nullmoggi',
+        site: '@bratcatnullgato',
+        creator: '@bratcatnullgato',
     },
 }
 

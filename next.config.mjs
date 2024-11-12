@@ -4,38 +4,38 @@ const nextConfig = {
         return [
             {
                 source: '/bandcamp',
-                destination: 'https://nullmoggi.bandcamp.com',
+                destination: 'https://bratcatnullgato.bandcamp.com',
                 permanent: false,
             },
             {
                 source: '/github',
-                destination: 'https://github.com/nullmoggi',
+                destination: 'https://github.com/nullgato',
                 permanent: false,
             },
             {
                 source: '/facebook',
                 destination:
-                    'https://www.facebook.com/nullmoggi',
+                    'https://www.facebook.com/bratcatnullgato',
                 permanent: false,
             },
             {
                 source: '/instagram',
-                destination: 'https://instagram.com/nullmoggi',
+                destination: 'https://instagram.com/bratcatnullgato',
                 permanent: false,
             },
             {
                 source: '/ko-fi',
-                destination: 'https://ko-fi.com/nullmoggi',
+                destination: 'https://ko-fi.com/bratcatnullgato',
                 permanent: false,
             },
             {
                 source: '/soundcloud',
-                destination: 'https://soundcloud.com/nullmoggi',
+                destination: 'https://soundcloud.com/bratcatnullgato',
                 permanent: false,
             },
             {
                 source: '/threads',
-                destination: 'https://threads.net/@nullmoggi',
+                destination: 'https://threads.net/@bratcatnullgato',
                 permanent: false,
             },
             {
@@ -50,12 +50,12 @@ const nextConfig = {
             },
             {
                 source: '/twitter',
-                destination: 'https://twitter.com/nullmoggi',
+                destination: 'https://twitter.com/bratcatnullgato',
                 permanent: false,
             },
             {
                 source: '/youtube',
-                destination: 'https://youtube.com/@nullmoggi',
+                destination: 'https://youtube.com/@bratcatnullgato',
                 permanent: false,
             },
             {
