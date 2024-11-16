@@ -1,10 +1,12 @@
 'use client'
 
+import IconLinkButton from '@/common/IconLinkButton'
 import LatestSongCollection from '@/components/LatestSongCollection'
 import SocialIcons from '@/components/SocialIcons'
 import avatarIrl from '@/images/avatar-irl.png'
 import avatar from '@/images/avatar.png'
 import banner from '@/images/banner.png'
+import { faHandPointLeft } from '@fortawesome/free-solid-svg-icons'
 import Image from 'next/image'
 import Link from 'next/link'
 import { ToastContainer } from 'react-toastify'
@@ -58,7 +60,11 @@ const Home = () => (
                 <SocialIcons />
 
                 <div className="latest-info mt-5 w-full max-w-lg px-5 sm:px-0">
-                    <LatestSongCollection />
+                    <IconLinkButton href='/' icon={faHandPointLeft} className='mb-10'>
+                        <p className="font">bratcats.gay homepage</p>
+                    </IconLinkButton>
+
+                    <LatestSongCollection  />
                 </div>
 
                 <div className="footer mt-14 w-full max-w-lg text-center text-sm font-light">
