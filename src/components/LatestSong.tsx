@@ -42,17 +42,17 @@ const LatestSong = () => {
     https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1893596988&color=%23c43863&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
     */
 
-    const spotifyTrackId = "6Frxz9zmK5TRuoPcguXWFJ"
+    const spotifyTrackId = "5gKpzz20xLufhegbW1azxQ"
 
     return (
         <div className="w-full">
             <iframe className="border-radius:12px" src={`https://open.spotify.com/embed/track/${spotifyTrackId}?utm_source=generator`} width="100%" height="152" allowFullScreen={false} allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
             
-            <IconLinkButton icon={faApple} href="https://music.apple.com/us/album/estranged/1775644971?i=1775644972" className="my-4">
+            <IconLinkButton icon={faApple} href="https://music.apple.com/us/album/borderline/1779502461?i=1779502462" className="my-4">
                 <p className="font">Also on Apple Music!</p>
             </IconLinkButton>
             
-            <IconLinkButton icon={faYoutube} href="https://music.youtube.com/watch?v=vt7-7U45WfA&si=FOQzFixbrYonzfjx">
+            <IconLinkButton icon={faYoutube} href="https://music.youtube.com/watch?v=Y7UbvhTprLg&si=3-dRAbvgbAmgAzMZ">
                 <p className="font">And YouTube Music!</p>
             </IconLinkButton>
         </div>
