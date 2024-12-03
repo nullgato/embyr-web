@@ -1,9 +1,7 @@
 'use client'
 
 import IconLinkButton from '@/common/IconLinkButton'
-import LatestSongCollection from '@/components/LatestSongCollection'
 import SocialIcons from '@/components/SocialIcons'
-import avatarIrl from '@/images/avatar-irl.png'
 import avatar from '@/images/avatar.png'
 import banner from '@/images/banner.png'
 import { faHandPointLeft } from '@fortawesome/free-solid-svg-icons'
@@ -37,20 +35,10 @@ const Home = () => (
                         alt="Avatar picture of the nullgato fursona"
                         placeholder="blur"
                         fill />
-
-                    <Image
-                        id="avatar-irl"
-                        quality={90}
-                        sizes="9rem"
-                        className="fadeInOut rounded-lg border-2 border-solid border-slate-100"
-                        src={avatarIrl}
-                        alt="Avatar picture of the actual nullgato"
-                        placeholder="blur"
-                        fill />
                 </div>
 
                 <div className="bio mt-3 text-center">
-                    <p className="p-1 text-xl font-semibold">nullgato</p>
+                    <p className="p-1 text-xl font-semibold">bratcat / nullgato</p>
                     <p className="text-sm font-light tracking-wider max-w-sm">
                         i make music for the girlies with soft souls and the boys who screw everything up just like me 😌
                     </p>
@@ -64,7 +52,9 @@ const Home = () => (
                         <p className="font">bratcats.gay homepage</p>
                     </IconLinkButton>
 
-                    <LatestSongCollection  />
+                    {/* <LatestSongCollection  /> */}
+
+                    <iframe style={{width: '100%', height: 290}} src="https://www.youtube.com/embed/T4wmdn5XrP4?si=kHTL0I_oFTTOyI6W" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                 </div>
 
                 <div className="footer mt-14 w-full max-w-lg text-center text-sm font-light">

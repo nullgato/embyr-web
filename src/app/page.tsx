@@ -1,13 +1,9 @@
 'use client'
 
-import IconLinkButton from '@/common/IconLinkButton'
-import LatestSong from '@/components/LatestSong'
 import SocialIcons from '@/components/SocialIcons'
 import SocialLinks from '@/components/SocialLinks'
-import avatarIrl from '@/images/avatar-irl.png'
 import avatar from '@/images/avatar.png'
 import banner from '@/images/banner.png'
-import { faBandcamp } from '@fortawesome/free-brands-svg-icons'
 import Image from 'next/image'
 import Link from 'next/link'
 import { ToastContainer } from 'react-toastify'
@@ -41,21 +37,10 @@ const Home = () => {
                             placeholder="blur"
                             fill
                         />
-                        
-                        <Image
-                            id="avatar-irl"
-                            quality={90}
-                            sizes="9rem"
-                            className="fadeInOut rounded-lg border-2 border-solid border-slate-100"
-                            src={avatarIrl}
-                            alt="Avatar picture of the actual nullgato"
-                            placeholder="blur"
-                            fill
-                        />
                     </div>
 
                     <div className="bio mt-3 text-center">
-                        <p className="p-1 text-xl font-semibold">nullgato</p>
+                        <p className="p-1 text-xl font-semibold">bratcat / nullgato</p>
                         <p className="text-sm font-light tracking-wider max-w-sm">
                             i make music for the girlies with soft souls and the boys who screw everything up just like me 😌
                         </p>
@@ -65,17 +50,8 @@ const Home = () => {
                     <SocialIcons />
 
                     <div className="latest-info mt-5 w-full max-w-lg px-5 sm:px-0">
-                        <LatestSong />
-                        <IconLinkButton
-                            className="mt-4"
-                            icon={faBandcamp}
-                            href="/bandcamp"
-                        >
-                            <p className="font">Bandcamp</p>
-                            <p className="text-xs font-light">
-                                Pay what you want - $0+
-                            </p>
-                        </IconLinkButton>
+                        {/* <LatestSong /> */}
+                        <iframe style={{width: '100%', height: 290}} src="https://www.youtube.com/embed/T4wmdn5XrP4?si=kHTL0I_oFTTOyI6W" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     </div>
 
                     <div className="content mt-14 w-full max-w-lg px-5 sm:px-0">
