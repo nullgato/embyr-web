@@ -54,7 +54,7 @@ const Home = () => (
 
                     {/* <LatestSongCollection  /> */}
 
-                    <iframe style={{width: '100%', height: 290}} src="https://www.youtube.com/embed/T4wmdn5XrP4?si=kHTL0I_oFTTOyI6W" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <iframe style={{width: '100%', height: '100%', aspectRatio: '16/9'}} src="https://www.youtube.com/embed/T4wmdn5XrP4?si=kHTL0I_oFTTOyI6W" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                 </div>
 
                 <div className="footer mt-14 w-full max-w-lg text-center text-sm font-light">
