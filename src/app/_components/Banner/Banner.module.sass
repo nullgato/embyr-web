@@ -1,0 +1,17 @@
+@use 'sass:map'
+@use 'mixins'
+@use 'variables'
+
+.banner
+    position: relative
+    width: 100%
+    aspect-ratio: 16/8
+
+    img
+        @include mixins.shadow(box, 20px)
+        border-radius: 20px
+
+@include mixins.media-max-w(md)
+    .banner
+        img
+            border-radius: 0 !important

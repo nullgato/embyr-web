@@ -1,0 +1,57 @@
+@use 'sass:color'
+@use 'sass:map'
+@use 'animations'
+@use 'mixins'
+@use 'variables'
+
+@include animations.fade-in
+
+.backgroundWrapper
+    position: fixed
+    top: 0
+    left: 0
+    width: 100vw
+    height: 100vh
+
+.boundary
+    width: 100%
+    padding: 50px
+    display: flex
+    justify-content: center
+    z-index: 10
+
+.presentation
+    @include mixins.centered-display(column)
+    @include mixins.shadow(box, 25px)
+    width: 100%
+    max-width: 600px
+    height: fit-content
+    padding: 3rem
+    border-radius: 20px
+    background: linear-gradient(variables.$purple-background, variables.$dark-slate)
+    animation: fadeIn 2s
+
+    // Indented due to Next.js 'pure' issue
+
+    main
+        width: 100%
+        margin: 0px 0 50px 0
+        
+    footer
+        text-align: center
+        font-weight: 100
+
+        p
+            margin: 0
+
+@include mixins.media-max-w(md)
+    .boundary
+        padding: 0 !important
+        
+    .presentation
+        max-width: 100% !important
+        border-radius: 0 !important
+        padding: 0 0 3rem 0 !important
+
+        main
+            max-width: 95%

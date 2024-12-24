@@ -1,0 +1,19 @@
+@use 'sass:color'
+@use 'mixins'
+@use 'variables'
+
+.navigation
+    width: 100%
+    margin: 1.5rem 0 0 0
+    display: grid
+    grid-template-columns: repeat(4, 1fr)
+    column-gap: 20px
+
+    .navSelected
+        button
+            background-color: rgb(color.invert(variables.$dark-slate), 0.1)
+            box-shadow: inset 20px 20px 60px #574d65, inset -20px -20px 60px #756889
+
+@include mixins.media-max-w(md)
+    .navigation
+        width: 95% !important

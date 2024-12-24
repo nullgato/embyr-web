@@ -1,0 +1,25 @@
+@use 'sass:map'
+@use 'sass:math'
+@use 'mixins'
+@use 'variables'
+
+$width-full: 9rem
+$width-mini: 6rem
+
+@mixin calc-width-margin($size)
+    max-width: $size
+    margin-top: math.div($size, 2) * -1
+
+.avatar
+    @include calc-width-margin($width-full)
+    width: 100%
+    aspect-ratio: 1/1
+    position: relative
+
+    img
+        @include mixins.shadow(box, 20px)
+        border-radius: 8px
+
+@include mixins.media-max-w(sm)
+    .avatar
+        @include calc-width-margin($width-mini)

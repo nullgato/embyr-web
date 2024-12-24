@@ -1,0 +1,80 @@
+@use 'mixins'
+@use 'variables'
+
+.mailingList
+    width: 100%
+    margin: 1rem 0
+
+.modal
+    display: flex
+    flex-direction: column
+    align-items: center
+    text-align: center
+
+    h1
+        margin: 0 !important
+        font-weight: 150 !important
+        letter-spacing: 0.5
+
+    p
+        font-weight: 200 !important
+        letter-spacing: 0.5
+
+    .form
+        width: 80%
+
+    input
+        width: 100%
+        padding: 10px 5px
+        border-radius: 5px
+        border: none
+        box-sizing: border-box
+
+        &[data-valid="false"]
+            border: solid 2px red
+
+        &[data-valid="true"]
+            border: solid 2px green
+
+    button
+        width: 100%
+        padding: 10px
+        margin-top: 10px
+        border-radius: 5px
+        border: none
+        background-color: variables.$purple-background
+        color: variables.$white
+        letter-spacing: 1
+        cursor: pointer
+        transition: .3s
+
+        &:hover:not(:disabled)
+            background-color: rgb(variables.$purple-accent, 0.7)
+            transition: .3s
+            box-shadow: 0px 8px 11px 0px rgba(0,0,0,0.1)
+
+        &:disabled
+            background-color: rgb(variables.$purple-accent, 0.1)
+            cursor: not-allowed
+
+    .animatedCheck
+        width: 100px
+        height: 100px
+
+        svg path
+            fill: none
+            stroke: #099949
+            stroke-width: 4
+            stroke-dasharray: 23
+            stroke-dashoffset: 23
+            animation: draw 1s linear forwards
+            stroke-linecap: round
+            stroke-linejoin: round
+
+@keyframes draw
+    to
+        stroke-dashoffset: 0
+
+@include mixins.media-max-w(md)
+    .mailingList
+        width: 95% !important

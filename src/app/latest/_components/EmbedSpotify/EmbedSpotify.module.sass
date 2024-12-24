@@ -1,0 +1,9 @@
+@use 'animations'
+@use 'mixins'
+
+@include animations.fade-in
+
+.spotify
+    @include mixins.embed-wrapper
+    border: none
+    animation: fadeIn 4s

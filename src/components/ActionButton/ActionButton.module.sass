@@ -1,0 +1,36 @@
+@use 'mixins'
+@use 'variables'
+
+.actionButton
+    width: 100%
+    text-decoration: none
+
+    button
+        @include mixins.centered-display(row)
+        @include mixins.neu-button
+            width: 100%
+            min-height: 4rem
+
+            svg
+                padding: 0.5rem
+                position: absolute
+                float: left
+                font-size: 2.25rem
+                line-height: 2.5rem
+
+            div
+                width: 100%
+                letter-spacing: 0.05rem
+
+                h1
+                    margin: 0
+                    font-size: 1rem
+                    font-weight: 400
+
+                p
+                    margin: 0
+                    font-size: .75rem
+                    line-height: 1rem
+                    font-weight: 300
+            
+            

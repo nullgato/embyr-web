@@ -1,0 +1,21 @@
+@use 'mixins'
+@use 'variables'
+
+.embedSkeleton
+    @include mixins.embed-wrapper
+    border: solid 1px rgb(variables.$dark-slate, 0.3)
+    background-color: rgb(variables.$dark-slate, 0.5)
+    animation-duration: 2s
+    animation-fill-mode: forwards
+    animation-iteration-count: infinite
+    animation-name: placeHolderShimmer
+    animation-timing-function: linear
+    background: linear-gradient(to right, variables.$dark-slate 8%, variables.$purple-background 18%, variables.$dark-slate 33%)
+    background-size: 800px 104px
+    position: relative
+
+@keyframes placeHolderShimmer
+  0%
+    background-position: -800px 0
+  100% 
+    background-position: 800px 0

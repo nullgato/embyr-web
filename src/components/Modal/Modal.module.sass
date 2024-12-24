@@ -1,0 +1,46 @@
+@use 'sass:color'
+@use 'animations'
+@use 'variables'
+
+@include animations.fade-in
+
+.modal
+    width: 100vw
+    height: 100vh
+    top: 0
+    left: 0
+    padding: 0
+    margin: 0
+    position: fixed
+    z-index: 20
+    display: flex
+    justify-content: center
+    align-items: center
+    background-color: rgb(variables.$dark-slate, 0.85)
+
+.modalContent
+    max-width: 300px
+    background-color: color.adjust(variables.$purple-background, $lightness: -25%)
+    padding: 40px
+    margin: 0
+    position: relative
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+    animation: fadeIn 1s
+
+.modalClose
+    position: absolute
+    top: 0
+    right: 0
+    padding: 10px
+    display: flex
+    justify-content: center
+    align-items: center
+    font-size: 1.8rem
+    font-weight: lighter
+    cursor: pointer
+
+    &:hover
+        color: rgb(variables.$purple-accent, 1)

@@ -1,0 +1,26 @@
+@use 'sass:map'
+@use 'mixins'
+@use 'variables'
+    
+@include mixins.media-max-w(sm)
+    .glyphs
+        display: grid !important
+        grid-template-columns: repeat(4, 1fr)
+        grid-template-rows: repeat(2, 1fr)
+        grid-column-gap: 0px
+        grid-row-gap: 0px
+
+.glyphs
+    display: flex
+    font-size: 2rem
+    margin-top: 1rem
+
+    a
+        color: variables.$white
+        padding: 0.75rem
+
+        &:hover
+            color: variables.$purple-accent
+
+    svg
+        filter: drop-shadow(0px 0px 10px rgb(variables.$dark-slate, 0.6))
