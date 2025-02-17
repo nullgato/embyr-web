@@ -9,7 +9,7 @@ const nextConfig: NextConfig = {
         return [
             {
                 source: '/bandcamp',
-                destination: 'https://bratcatnullgato.bandcamp.com',
+                destination: 'https://nullgato.bandcamp.com',
                 permanent: false,
             },
             {
@@ -24,42 +24,37 @@ const nextConfig: NextConfig = {
             },
             {
                 source: '/instagram',
-                destination: 'https://instagram.com/bratcatnullgato',
+                destination: 'https://instagram.com/nullga.to',
                 permanent: false,
             },
             {
                 source: '/ko-fi',
-                destination: 'https://ko-fi.com/bratcatnullgato',
+                destination: 'https://ko-fi.com/nullgato',
                 permanent: false,
             },
             {
                 source: '/soundcloud',
-                destination: 'https://soundcloud.com/bratcatnullgato',
+                destination: 'https://soundcloud.com/nullgato',
                 permanent: false,
             },
             {
                 source: '/threads',
-                destination: 'https://threads.net/@bratcatnullgato',
+                destination: 'https://threads.net/@nullga.to',
                 permanent: false,
             },
             {
                 source: '/tiktok',
-                destination: 'https://www.tiktok.com/@bratcatnullgato',
+                destination: 'https://www.tiktok.com/@nullgato',
                 permanent: false,
             },
             {
                 source: '/twitch',
-                destination: 'https://twitch.com/nullmoggi',
-                permanent: false,
-            },
-            {
-                source: '/twitter',
-                destination: 'https://twitter.com/bratcatnullgato',
+                destination: 'https://twitch.com/nullgato',
                 permanent: false,
             },
             {
                 source: '/youtube',
-                destination: 'https://youtube.com/@bratcatnullgato',
+                destination: 'https://youtube.com/@nullgato',
                 permanent: false,
             },
             {
